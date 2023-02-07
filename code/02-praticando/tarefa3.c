@@ -9,7 +9,8 @@
 #define PI 3.141592
 
 void print_trigo(int a) {
-    printf("seno: %lf, cosseno: %lf\n", sin(a), cos(a));
+    double b = a * PI / 180.0;
+    printf("seno: %lf, cosseno: %lf\n", sin(b), cos(b));
 }
 
 int main() {
