@@ -8,6 +8,16 @@
 
 /* TODO: implemente sua função soma aqui */
 
+double soma(double arr[], int n) {
+    if (n < 1) {
+        return 0;
+    }
+    double s = 0;
+    for (int i = 0; i < n; i++) {
+        s += arr[i];
+    }
+    return s;
+}
 
 int main() {
     double arr1[] = {1, 2, 3, 4, 5, 6};
